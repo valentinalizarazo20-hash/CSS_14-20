@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Propiedades relacionadas al padding </title>
+    <link rel="stylesheet" href="STYLES6.css">
+</head>
+<body>
+<pre class="codigofuente">
+public class Rectangulo{
+    //atributos
+    int alto;
+    int ancho; 
+    boolean relleno;
+    //métodos 
+    public int devolverArea () {
+        return alto*ancho;
+    }
+    public void rellenar(boolean r){
+        relleno=r;
+    }
+    public void cambiarTamano(int an, int al){
+        ancho=an;
+        alto=al;
+    }
+    public Rectangulo () {// constructor
+        alto=20;
+        ancho=10;
+        relleno=false;
+    }
+}//fin clase Rectangulo
+</pre>
+</body>
+</html>
